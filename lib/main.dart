@@ -95,7 +95,7 @@ class _HomePageState extends State<HomePage> {
           Divider(),
           menuItem(5, "Definiendo Texto (altura)", Icons.text_fields,
               currentPage == DrawerSections.settings ? true : false),
-          menuItem(6, "Texo Centrado", Icons.text_decrease,
+          menuItem(6, "Texo Sombra", Icons.text_decrease,
               currentPage == DrawerSections.notifications ? true : false),
           Divider(),
           menuItem(7, "Forma Circular", Icons.circle,

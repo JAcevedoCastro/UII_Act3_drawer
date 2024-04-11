@@ -8,9 +8,36 @@ class PrivacyPolicyPage extends StatefulWidget {
 class _PrivacyPolicyPageState extends State<PrivacyPolicyPage> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Center(
-        child: Text("Privacy Policy Page"),
+    return Scaffold(
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.start,
+          children: [
+            Text(
+              "Jonathan Acevedo Castro",
+              style: TextStyle(
+                fontSize: 22,
+                color: Color(0xff000000),
+              ),
+            ),
+            Container(
+              margin: EdgeInsets.all(30),
+              decoration: BoxDecoration(
+                color: Color(0xff40c0fb),
+                shape: BoxShape.circle,
+              ),
+              width: 150,
+              height: 150,
+            ),
+            Text(
+              "Mat.21308051280425",
+              style: TextStyle(
+                fontSize: 22,
+                color: Color(0xff000000),
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }
